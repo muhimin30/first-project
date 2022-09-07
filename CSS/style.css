@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+#hero-section , .download-resume{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../Image/top-banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2%;
+    
+}
+.info{
+    width: 50%;
+    padding: 7rem 8rem;
+}
+.info h1, .dream-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.info h1 span{
+    color: #FFA309;
+}
+.info h3 {
+    margin-bottom: 0.5rem;
+}
+.button{
+    margin-top: 1rem;
+}
+.button a{
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+    background-image: linear-gradient(to right , #F78768, #FB6655) ;
+    color: #fff;
+    border-radius: 0.5rem;
+}
+
+.photo {
+    max-width: 40%;
+}
+.photo img{
+    width: 100%;
+}
+.download-resume{
+    background-image: url(../Image/dream-bg.png);
+    background-size: inherit;
+    background-position: right;
+}
+#download-resume{
+    margin-top: 1.5rem;
+}
+#download-resume a{
+    background-image: linear-gradient(to right , #FF569A, #FF1771) ;
+}
+.exp-main-title{
+    margin: 2%;
+}
+.experiance{
+    background-image: url(../Image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.experiance-box{
+    width: 45%;
+    margin: 2%;
+    padding: 4%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 2%;
+    border-left: 7px solid;
+}
+#full-stack{
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-stack{
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+.exp-title{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.experiance-box h2{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+.experiance-box h4{
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #FFA309;
+}
+.experiance-box p{
+    color: rgb(75, 75, 75);
+    padding-right: 10%;
+    margin-bottom: 2rem;
+}
+.footer h5{
+    text-align: center;
+    padding: 1rem;
+    color: rgb(75, 75, 75);
+}
